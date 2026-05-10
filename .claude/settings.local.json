@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:\\\\TAE_git\\\\ai agent_재생 에너지_태양광\\\\태양광 솔루션\" status)",
+      "Read(//c/TAE_git/ai agent_재생 에너지_태양광/**)",
+      "Bash(git -C \"c:\\\\TAE_git\\\\ai agent_재생 에너지_태양광\\\\태양광 솔루션\" init)",
+      "Bash(git -C \"c:\\\\TAE_git\\\\ai agent_재생 에너지_태양광\\\\태양광 솔루션\" remote add origin https://github.com/potaeho/solar-power-problem.git)",
+      "Bash(git -C \"c:\\\\TAE_git\\\\ai agent_재생 에너지_태양광\\\\태양광 솔루션\" remote -v)",
+      "Bash(Start-Process \"c:\\\\TAE_git\\\\ai agent_재생 에너지_태양광\\\\태양광 솔루션\\\\solar_pretotype_B고객용.html\")",
+      "PowerShell(Start-Process \"c:\\\\TAE_git\\\\ai agent_��� ������_�¾籤\\\\�¾籤 �ַ��\\\\solar_pretotype_B������.html\")",
+      "PowerShell(git -C \"c:\\\\TAE_git\\\\ai agent_��� ������_�¾籤\" status)",
+      "PowerShell(git -C \"c:\\\\TAE_git\\\\ai agent_��� ������_�¾籤\\\\�¾籤 �ַ��\" status)",
+      "PowerShell(git -C \"c:\\\\TAE_git\\\\ai agent_��� ������_�¾籤\\\\�¾籤 �ַ��\" remote -v)",
+      "PowerShell(git -C \"c:\\\\TAE_git\\\\ai agent_��� ������_�¾籤\\\\�¾籤 �ַ��\" log --oneline -5)",
+      "PowerShell(gh api repos/potaeho/solar-power-problem/pages --method POST -f source='{\"branch\":\"main\",\"path\":\"/\"}' 2>&1)",
+      "PowerShell(gh api repos/potaeho/solar-power-problem/pages --method POST --field 'source[branch]=main' --field 'source[path]=/' 2>&1)"
+    ]
+  }
+}
